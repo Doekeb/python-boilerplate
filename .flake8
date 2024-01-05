@@ -1,0 +1,10 @@
+[flake8]
+; Exclude virtual environments
+exclude = .venv
+; Compatibility with Black
+max-line-length = 88
+extend-ignore = E203
+; Docstring convention
+docstring-convention=numpy
+; Disable docstring requirements in tests
+per-file-ignores=*/tests/*:D100,D101,D102,D103,D104,D105,D106,D107
