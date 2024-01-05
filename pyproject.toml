@@ -2,9 +2,10 @@
 name = "python-boilerplate"
 version = "0.1.0"
 description = ""
+license = "MIT"
 authors = ["doeke <doekebuursam@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_boilerplate", from = "src"}]
+packages = [{ include = "python_boilerplate", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
