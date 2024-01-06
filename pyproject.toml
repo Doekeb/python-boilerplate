@@ -10,6 +10,18 @@ packages = [{ include = "python_boilerplate", from = "src" }]
 [tool.poetry.dependencies]
 python = "^3.12"
 
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+pylint = "^3.0.3"
+flake8-docstrings = "^1.7.0"
+ipykernel = "^6.28.0"
+mypy = "^1.8.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+
 
 [build-system]
 requires = ["poetry-core"]
